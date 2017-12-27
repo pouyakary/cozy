@@ -1,5 +1,5 @@
 
-/// <reference path="../imports.ts" />
+/// <reference path="../core/imports.ts" />
 /// <reference path="../logic/changeHello.ts" />
 
 namespace RefactorThisToYourAppsMainNamespace.View {
