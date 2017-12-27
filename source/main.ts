@@ -1,6 +1,6 @@
 
-/// <reference path="./storage/storage.ts" />
-/// <reference path="../view/main.tsx" />
+/// <reference path="./core/storage/storage.ts" />
+/// <reference path="./view/main.tsx" />
 
 namespace RefactorThisToYourAppsMainNamespace {
 
