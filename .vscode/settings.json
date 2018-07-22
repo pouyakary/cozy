@@ -3,5 +3,8 @@
     "editor.formatOnPaste": false,
     "editor.formatOnType":  false,
     "editor.insertSpaces":  true,
-    "editor.tabSize":       4
+    "editor.tabSize": 4,
+    "cSpell.words": [
+        "mdash"
+    ]
 }

@@ -19,7 +19,7 @@ namespace RefactorThisToYourAppsMainNamespace.Storage {
          * to keep any state that has ever existed on the app.
          *
          * __Important__ &mdash; Try to remember that this storage __SHOULD NEVER BE
-         * ALTERED BY ANTHING RATHER THAN `undoLastState( )` and `setState( )`. TO READ
+         * ALTERED BY ANYTHING RATHER THAN `undoLastState( )` and `setState( )`. TO READ
          * THE STATE NOTHING BUT THE `getState( )` must be used
          */
 
@@ -33,17 +33,17 @@ namespace RefactorThisToYourAppsMainNamespace.Storage {
         const _subscribersStorage = new Set<TSubscriber>( )
 
     //
-    // ─── SET INITAL STATE ───────────────────────────────────────────────────────────
+    // ─── SET INITIAL STATE ──────────────────────────────────────────────────────────
     //
 
         /**
-         * Sets an inital state. __Remember that this should only be used once and
+         * Sets an initial state. __Remember that this should only be used once and
          * within the very start of the software.__
          */
         export function INIT ( ) {
-            const initalState = createInitalState( )
-            _stateStorage.push( initalState )
-            runSubscribers( initalState )
+            const initialState = createInitialState( )
+            _stateStorage.push( initialState )
+            runSubscribers( initialState )
         }
 
     //

@@ -8,9 +8,9 @@ namespace RefactorThisToYourAppsMainNamespace.Storage {
     //
 
         /**
-         * This is the function where you must specify the inital storage
+         * This is the function where you must specify the initial storage
          */
-        export function createInitalState ( ): IModel {
+        export function createInitialState ( ): IModel {
             return {
                 message: "Hello, World"
             }
